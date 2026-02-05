@@ -9,53 +9,23 @@
     transition: 0.4s;
     box-shadow: 2px 2px 2px #000000;
 }
-.nav-item .active{
-    color: #03cbf3!important;
-}
 .nav-item .btn{
     background: #ef7f42;
     color: #000000;
     border-color: #ef7f42;
     box-shadow: #000000 2px 2px 2px;
-
-}
-.hero
-{
-    background: linear-gradient(120deg, #2FA4D9 30%, #F47C2A 90%);
 }
 
 
-/* BUTTON */
-
-.btn3{
-  position:relative;
-  padding:12px 35px;
-  background:white;
-  border-radius:30px;
-  font-size:18px;
-  border:none;
-  cursor:pointer;
-  z-index:1;
+.btn{
+    background: #ef7f42!important;
+    color: #000000;
+    border-color: #ef7f42;
+    box-shadow: #000000 2px 2px 2px;
 }
-
-/* BORDER */
-
-.btn3::before{
-  content:"";
-  position:absolute;
-  inset:-2px;
-  background:linear-gradient(90deg,#2FA4D9,#F47C2A,#2FA4D9);
-  background-size:200%;
-  border-radius:30px;
-  z-index:-1;
-}
-
-/* HOVER ANIMATION */
-.btn3:hover::before{
-  animation:borderMove 2s linear infinite;
-}
-
-@keyframes borderMove{
-  from{background-position:0%;}
-  to{background-position:200%;}
+.btn:hover{
+    background:#03cbf3!important;
+    color: #000000;
+    border-color:#039bb9;;
+    box-shadow: #000000 2px 2px 2px;
 }
