@@ -1,18 +1,20 @@
 body {
-  background: #1c1f22;
-  color: white;
+  background: #ffff !important;     
+  color: #000;          
   font-family: Arial, sans-serif;
 }
 
 .main-title {
   font-size: 40px;
   font-weight: 600;
+  color: #000;
 }
 
 .section-title {
   text-align: center;
   margin-bottom: 30px;
   font-size: 28px;
+  color: #000;
 }
 
 .gallery-card {
@@ -36,7 +38,7 @@ body {
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.45); /* overlay stays dark (as before) */
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
