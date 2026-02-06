@@ -104,15 +104,9 @@ header .container-fluid{
 /* only for footer  */
 @media only screen and (min-width:768px) and(max-width:1034px) {
     .footer-nav{
-        display: none;
-        
-        visibility: hidden;
+        display: none!important;
+        visibility: hidden!important;
     }
-.footer-nav a{
-     display: none;
-        
-        visibility: hidden;
-}
 }
 
 /* Tablet */
