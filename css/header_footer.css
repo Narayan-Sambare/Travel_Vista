@@ -102,10 +102,9 @@ header .container-fluid{
     }
 }
 /* only for footer  */
-@media only screen and (min-width:768px) and(max-width:1034px) {
+@media only screen and (min-width: 768px) and (max-width: 1034px) {
     .footer-nav{
-        display: none!important;
-        visibility: hidden!important;
+        display: none !important;
     }
 }
 
