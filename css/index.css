@@ -19,6 +19,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    /* for animation */
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeInRight 1s ease forwards 0.8s;
 }
 .search h2{
     font-size: 1.5vw;
@@ -53,6 +58,10 @@
     left: 10%;
     display: block;
     text-align: center;
+    /* for animation */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards 0.5s;
 }
 
 .text-con h1{
@@ -163,3 +172,22 @@
         gap: 10px;
     }
 }
+
+
+/* to add animation to the text dev and search dev */
+
+/* Keyframes */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
