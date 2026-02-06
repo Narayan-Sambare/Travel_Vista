@@ -42,7 +42,7 @@
     border-color:#039bb9;;
     box-shadow: #000000 2px 2px 2px;
 }
-.container-fluid{
+header .container-fluid{
     position: relative;
 }
 

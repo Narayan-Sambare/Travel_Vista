@@ -2,14 +2,18 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    scroll-behavior:smooth;
 }
 
 .search{
     position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 25vw;
+/*     
     background: rgba(0, 0, 0, 0.81);
     color: white;
-    top: 20%;
-    right: 5%;
     z-index: 100;
     padding: 20px;
     width: 25vw;
@@ -19,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .search h2{
@@ -44,6 +48,9 @@
 }
 
 .text-con{
+    left: 50%;
+    transform: translateX(-50%);
+/*     
     background: rgba(255, 255, 255, 0.568);
     border-radius: 10px;
     padding: 10px;
@@ -52,7 +59,7 @@
     top: 37%;
     left: 25%;
     display: block;
-    text-align: center;
+    text-align: center; */
 }
 
 .text-con h1{
