@@ -1,7 +1,7 @@
 bg color : white : #F8FAFC;
 text color: black
 extra color : 
-    blue : #2FA4D9
+    blue : #2FA4D9 #63e2fc
         Use for:
             ✅ Navbar
             ✅ Buttons
@@ -21,7 +21,7 @@ extra color :
 
 
 :root {
-  --primary-blue: #2FA4D9;
+  --primary-blue: #2FA4D9; #63e2fc
   --dark-blue: #1F3C5B;
   --accent-orange: #F47C2A;
   --light-bg: #F8FAFC;
