@@ -22,26 +22,7 @@
     transition: 0.4s;
     box-shadow: 2px 2px 2px #000000;
 }
-.nav-item .btn1{
-    background: #ef7f42;
-    color: #000000;
-    border-color: #ef7f42;
-    box-shadow: #000000 2px 2px 2px;
-}
 
-
-.btn1{
-    background: #ef7f42!important;
-    color: #000000;
-    border-color: #ef7f42;
-    box-shadow: #000000 2px 2px 2px;
-}
-.btn1:hover{
-    background:#03cbf3!important;
-    color: #000000;
-    border-color:#039bb9;;
-    box-shadow: #000000 2px 2px 2px;
-}
 header .container-fluid{
     position: relative;
 }
@@ -119,6 +100,19 @@ header .container-fluid{
     .footer-nav {
         width: 10%;
     }
+}
+/* only for footer  */
+@media only screen and (min-width:768px) and(max-width:1034px) {
+    .footer-nav{
+        display: none;
+        
+        visibility: hidden;
+    }
+.footer-nav a{
+     display: none;
+        
+        visibility: hidden;
+}
 }
 
 /* Tablet */

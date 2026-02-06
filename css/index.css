@@ -2,30 +2,24 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    scroll-behavior:smooth;
 }
-
 .search{
     position: absolute;
-    top: 50%;
+    background: rgba(0, 0, 0, 0.384);
+    /* color: white; */
+    top: 20%;
     right: 5%;
-    transform: translateY(-50%);
-    width: 25vw;
-/*     
-    background: rgba(0, 0, 0, 0.81);
-    color: white;
-    z-index: 100;
+    z-index: 3;
     padding: 20px;
     width: 25vw;
-    height: 80vh;
+    min-height: 50vh;
     border-radius: 20px 0px;
     box-shadow: 2px 2px 2px rgb(3, 0, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; */
+    justify-content: space-between;
 }
-
 .search h2{
     font-size: 1.5vw;
     border-bottom: 3px solid rgb(255, 255, 255);
@@ -35,31 +29,30 @@
 
 .search input {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 1vw;
-    padding: 10px;
+    padding: 4px;
 }
 
 .search .btn1 {
     width: 100%;
-    padding: 12px;
-    font-size: 1.1vw;
+    padding: 2px;
+    font-size: 1vw;
     margin-top: 20px;
+    border-radius: 5px;
 }
 
 .text-con{
-    left: 50%;
-    transform: translateX(-50%);
-/*     
+    width: 40%;
     background: rgba(255, 255, 255, 0.568);
     border-radius: 10px;
     padding: 10px;
     position: absolute;
     z-index: 3;
-    top: 37%;
-    left: 25%;
+    top: 20%;
+    left: 10%;
     display: block;
-    text-align: center; */
+    text-align: center;
 }
 
 .text-con h1{
@@ -168,91 +161,5 @@
     
     .why-mar {
         gap: 10px;
-    }
-}
-
-/* Mobile */
-@media only screen and (max-width: 576px) {
-    .search {
-        width: 95%;
-        height: auto;
-        padding: 15px;
-        position: relative;
-        margin: 15px auto;
-    }
-    
-    .search h2 {
-        font-size: 16px;
-    }
-    
-    .search input {
-        font-size: 14px;
-        padding: 8px;
-        margin-top: 10px;
-    }
-    
-    .search .btn1 {
-        font-size: 14px;
-        margin-top: 15px;
-    }
-    
-    .text-con {
-        padding: 15px;
-        width: 95%;
-    }
-    
-    .text-con h1 {
-        font-size: 2em;
-    }
-    
-    .text-con p {
-        font-size: 1.2em;
-    }
-    
-    .why {
-        padding: 15px 0;
-    }
-    
-    .why h3 {
-        font-size: 1.25rem;
-        margin-bottom: 15px;
-    }
-    
-    .why-mar {
-        gap: 8px;
-        padding: 5px;
-    }
-    
-    .why-1 .card-img-top {
-        height: 150px;
-    }
-}
-
-/* Small mobile */
-@media only screen and (max-width: 400px) {
-    .search {
-        padding: 12px;
-    }
-}
-
-/* Carousel responsive styles */
-.carousel {
-    position: relative;
-}
-
-.carousel-item img {
-    height: 70vh;
-    object-fit: cover;
-}
-
-@media only screen and (max-width: 768px) {
-    .carousel-item img {
-        height: 50vh;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .carousel-item img {
-        height: 40vh;
     }
 }
