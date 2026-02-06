@@ -1,6 +1,6 @@
-/* FORCE FULL WHITE BACKGROUND */
+/* PAGE BASE */
 body {
-    background-color:#ffff !important;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -14,18 +14,23 @@ body {
 
 /* Review Card */
 .review-card {
-    max-width: 520px;
-    margin: auto;
-    background: #ffffff;
-    padding: 25px;
+    background: #f9fafb;                 /* LIGHT BACKGROUND */
+    border: 1px solid #e6e6e6;           /* subtle border */
     border-radius: 14px;
+    padding: 25px;
     display: flex;
     gap: 16px;
     align-items: flex-start;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
 }
 
-/* Avatar FIX (NO BIG IMAGE) */
+.review-card:hover {
+    background: #ffffff;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* Avatar */
 .avatar {
     width: 70px;
     height: 70px;
@@ -38,10 +43,9 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
 }
 
-/* Review content */
+/* Content */
 .review-content h5 {
     margin: 0 0 5px;
     font-size: 16px;
@@ -58,9 +62,23 @@ body {
     color: #555;
     margin: 0;
 }
+#reviewCarousel .carousel-control-prev {
+    left: -100px;          /* move left arrow outward */
+}
 
-/* Carousel arrows visible on white */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+#reviewCarousel .carousel-control-next {
+    right: -60px;         /* move right arrow outward */
+}
+
+/* Make arrows slightly bigger & clearer */
+#reviewCarousel .carousel-control-prev-icon,
+#reviewCarousel .carousel-control-next-icon {
+    width: 2.5rem;
+    height: 2.5rem;
     filter: invert(1);
+}
+
+/* Prevent clipping */
+#reviewCarousel {
+    overflow: visible;
 }
