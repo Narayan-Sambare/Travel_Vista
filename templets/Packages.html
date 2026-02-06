@@ -1,29 +1,96 @@
-<!-- Travel packages:
-• Weekend trip
-• Adventure tour
-• Honeymoon
-• Family package
-Each:
-✔ Price
-✔ Duration
-✔ Includes
-✔ Book button -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Packages</title>
+    <title>Travel Packages</title>
+
+    <!-- Bootstrap (ONLY grid & spacing, no JS used by us) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../css/package.css">
 </head>
 <body>
-    <header class="header">
-    </header>
-    <main>
 
-    </main>
-    <footer>
-        
-    </footer>
-    
+<main class="container my-5">
+
+    <!-- SECTION TITLE -->
+    <div class="section-title text-center mb-5">
+        <h2>TRAVEL PACKAGES</h2>
+        <div class="underline"></div>
+    </div>
+
+    <!-- PACKAGES GRID -->
+    <div class="row g-4">
+
+        <!-- Weekend Trip -->
+        <div class="col-lg-3 col-md-6">
+            <div class="package-card">
+                <h4>Weekend Trip</h4>
+                <p class="price">₹8,999</p>
+                <p class="duration">2 Days / 1 Night</p>
+                <ul>
+                    <li>✔ Hotel Stay</li>
+                    <li>✔ Local Sightseeing</li>
+                    <li>✔ Breakfast Included</li>
+                    <li>✔ Travel Assistance</li>
+                </ul>
+                <button class="btn-book">BOOK NOW</button>
+            </div>
+        </div>
+
+        <!-- Adventure Tour -->
+        <div class="col-lg-3 col-md-6">
+            <div class="package-card">
+                <h4>Adventure Tour</h4>
+                <p class="price">₹14,499</p>
+                <p class="duration">4 Days / 3 Nights</p>
+                <ul>
+                    <li>✔ Trekking & Camping</li>
+                    <li>✔ Adventure Activities</li>
+                    <li>✔ Meals Included</li>
+                    <li>✔ Expert Guide</li>
+                </ul>
+                <button class="btn-book">BOOK NOW</button>
+            </div>
+        </div>
+
+        <!-- Honeymoon -->
+        <div class="col-lg-3 col-md-6">
+            <div class="package-card">
+                <h4>Honeymoon</h4>
+                <p class="price">₹24,999</p>
+                <p class="duration">5 Days / 4 Nights</p>
+                <ul>
+                    <li>✔ Luxury Resort</li>
+                    <li>✔ Candle Light Dinner</li>
+                    <li>✔ Romantic Activities</li>
+                    <li>✔ Airport Transfers</li>
+                </ul>
+                <button class="btn-book">BOOK NOW</button>
+            </div>
+        </div>
+
+        <!-- Family Package -->
+        <div class="col-lg-3 col-md-6">
+            <div class="package-card">
+                <h4>Family Package</h4>
+                <p class="price">₹18,999</p>
+                <p class="duration">6 Days / 5 Nights</p>
+                <ul>
+                    <li>✔ Family Hotels</li>
+                    <li>✔ Sightseeing Tours</li>
+                    <li>✔ All Meals</li>
+                    <li>✔ Kid Friendly</li>
+                </ul>
+                <button class="btn-book">BOOK NOW</button>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
 </body>
 </html>

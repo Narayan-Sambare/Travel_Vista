@@ -1,0 +1,88 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+}
+
+/* SECTION TITLE */
+.section-title h2 {
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #7a6a58;
+}
+
+.underline {
+    width: 120px;
+    height: 2px;
+    background-color: #7a6a58;
+    margin: 10px auto 0;
+}
+
+/* PACKAGE CARD */
+.package-card {
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.package-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* TEXT */
+.package-card h4 {
+    color: #002d72;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 22px;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.duration {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* LIST */
+.package-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.package-card ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* BUTTON */
+.btn-book {
+    background-color: #002d72;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+    background-color: #001f4d;
+}
