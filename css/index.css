@@ -3,10 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 .search{
     position: absolute;
     background: rgba(0, 0, 0, 0.384);
-    /* color: white; */
     top: 20%;
     right: 5%;
     z-index: 3;
@@ -95,16 +95,17 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .why-1 {
-    flex-shrink: 0;
+    height: 300px;
 }
 
-.why-1 .card-img-top {
+.why-1 .card-img {
     height: 200px;
     object-fit: cover;
+    border-bottom: 1px solid lightgray;
 }
 
 /* Tablet and smaller laptops */
@@ -191,3 +192,18 @@
     }
 }
 
+
+
+.section-title h2 {
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #7a6a58;
+    /* border: 1px solid lightgray; */
+}
+
+.underline {
+    width: 120px;
+    height: 2px;
+    background-color: #7a6a58;
+    margin: 10px auto 0;
+}

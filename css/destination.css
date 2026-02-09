@@ -54,3 +54,16 @@ body {
 .card-overlay h5 {
   margin-bottom: 10px;
 }
+
+.section-title h2 {
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #7a6a58;
+}
+
+.underline {
+    width: 120px;
+    height: 2px;
+    background-color: #7a6a58;
+    margin: 10px auto 0;
+}

@@ -21,12 +21,12 @@ body {
 /* Tabs */
 .blog-tabs .nav-link {
     color: #555;
-    border-radius: 20px;
+    border-radius: 3px;
     padding: 8px 22px;
 }
 
 .blog-tabs .nav-link.active {
-    background-color: #0d3b66;
+    background-color: #b9bbbd;
 }
 
 /* Blog Card */
